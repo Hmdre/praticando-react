@@ -1,12 +1,13 @@
 import './App.css'
-import EventHandlingExamples from './components/EventhandlingExamples'
+import EventHandlingExample from "./components/EventHandlingExample"
+
 
 
 function App() {
 
   return (
     <>
-      <EventHandlingExamples/>
+      <EventHandlingExample/>
     </>
   )
 }
