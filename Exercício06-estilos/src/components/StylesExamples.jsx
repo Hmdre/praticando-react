@@ -1,5 +1,6 @@
 import React from 'react'
 import "./StylesExamples.css"
+import styles from "./StyleExample.module.css"
 
 const StylesExamples = () => {
     
@@ -14,6 +15,9 @@ const StylesExamples = () => {
 
         {/* arquivo de estilos */}
         <p className='text'>Meu CSS</p>
+
+        {/* CSS Modules */}
+        <p className={styles.textPurple}>Meu CSS Modules</p>
     </div>
   )
 }
