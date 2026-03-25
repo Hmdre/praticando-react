@@ -6,11 +6,11 @@ const TodoApp = () => {
     const [listaDeTarefas, setListaDeTarefas] = useState([])
     
     const handleSubmit = (e) => {
-    e.preventDefault()
-    if (tarefa != "") {
-    setListaDeTarefas((prevTarefas) => [...prevTarefas, tarefa])
+        e.preventDefault()
+        if (tarefa != "") {
+        setListaDeTarefas((prevTarefas) => [...prevTarefas, tarefa])
 
-    setTarefa("")
+        setTarefa("")
     }}
 
     const handleDelete = (indexDaTarefa) => {
